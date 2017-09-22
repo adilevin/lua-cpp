@@ -2,3 +2,4 @@ app1/app1/x64
 app1/app1.VC*
 *.suo
 app1/x64
+*.user
