@@ -4,7 +4,7 @@
 
 void c_interop::run() {
 	c_interop c;
-	c.run_example1();
+	c.run_lua_file("example1.lua");
 	std::cout << "C++ gets v = " << c.get_lua_int("v") << "\n";
 }
 
@@ -17,8 +17,8 @@ c_interop::~c_interop() {
 	lua_close(lua_state);
 }
 
-void c_interop::run_example1() {
-	luaL_dofile(lua_state, "example1.lua");
+void c_interop::run_lua_file(const char* filename) {
+	luaL_dofile(lua_state, filename);
 }
 
 long long c_interop::get_lua_int(const char* name) const {

@@ -11,7 +11,7 @@ public:
 	c_interop();
 	virtual ~c_interop();
 
-	void run_example1();
+	void run_lua_file(const char* filename);
 	long long get_lua_int(const char* name) const;
 
 private:
