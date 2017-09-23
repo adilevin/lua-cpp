@@ -18,6 +18,9 @@
     <None Include="example1.lua">
       <Filter>Source Files</Filter>
     </None>
+    <None Include="example2.lua">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

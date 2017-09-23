@@ -169,6 +169,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="example1.lua" />
+    <None Include="example2.lua" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="c_interop.cpp" />
