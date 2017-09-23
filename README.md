@@ -3,6 +3,7 @@ My attempts at integrating LUA with C++
 
 ## Notes
 
+- This is a demonstration of using LUA with C++ on x64 Windows with Visual Studio 2015
 - I took the x64 Lua v5.1.5 Binaries for x64 from [here](https://sourceforge.net/projects/luabinaries/files/5.1.5/Windows%20Libraries/Dynamic/) and extracted its contents into folder `$(SolutionDir)\lua-5.1.5\x64`
 - For LUA documention, see [here](https://www.lua.org/docs.html)
 - I added a custom build step that copies the Lua DLL to the project's output directory. 
